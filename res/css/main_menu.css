@@ -1,3 +1,9 @@
 header.company_name {
-    background-color: #444444;
+    background-color: #eeeeee;
+}
+
+@media (prefers-color-scheme: dark) {
+    header.company_name {
+        background-color: #444444;
+    }
 }

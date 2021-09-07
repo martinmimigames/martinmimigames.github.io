@@ -1,3 +1,19 @@
+:root {
+    --background-color: white;
+    --text-colour: #333333;
+    --link-color: rgb(0, 125, 151);
+    --visited-link-color: rgb(125, 49, 134);
+  }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #121212;
+    --text: white;
+    --link-color: rgb(0, 67, 98);;
+    --visited-link-color: rgb(76, 0, 85);
+  }
+}
+
 * {
     font-family: Helvetica, Verdana, Arial, sans-serif;
     letter-spacing: 0.02em;
@@ -6,6 +22,8 @@
 body {
     text-align: left;
     margin: 0px;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 header.name {
@@ -28,14 +46,15 @@ p.centered {
 a {
     /*border for fancy underline*/
     border-style: hidden hidden solid hidden;
-    border-color: rgb(0, 67, 98);
+    border-color: var(--link-color);
 
     /*remove original underline*/
     text-decoration: none;
+    color: var(--text-color)
 }
 
 a:visited {
-    border-color: rgb(76, 0, 85);
+    border-color: var(--visited-link-color);
 }
 
 a.img {
