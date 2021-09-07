@@ -7,9 +7,14 @@
     <link rel="stylesheet" href="/res/css/default.css">
     <link rel="stylesheet" href="/res/css/main_menu.css">
     <script>
+      if (darkModeCheck){
+        addCss("/res/css/dark_mode.css");
+      }else{
+        addCss("/res/css/light_mode.css");
+      }
       if (isMobile()) {
         addCss("/res/css_mobile/default.css");
-        }
+       }
       </script>
     <title>martinmimigames : main menu</title>
   </head>
@@ -32,4 +37,4 @@
     <p class="centered"><a href="contacts/index.html">our contacts</a></p>
 
   </body>
-</html>			
+</html>
