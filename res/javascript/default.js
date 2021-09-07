@@ -1,6 +1,11 @@
 var _isMobile = /Mobi/i.test(window.navigator.userAgent);
 // Check to see if Media-Queries are supported
-var _mediaQuerySupported = window.matchMedia;
+var _mediaQuerySupported;
+if (window.matchMedia){
+    _mediaQuerySupported = true;
+}else {
+    _mediaQuerySupported = false;
+}
 
 function darkModeCheck(){
 
