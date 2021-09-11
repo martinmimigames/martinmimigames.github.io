@@ -2,6 +2,10 @@ header.company_name {
     background-color: #eeeeee;
 }
 
+img.pixel {
+    image-rendering: crisp-edges;
+}
+
 @media (prefers-color-scheme: dark) {
     header.company_name {
         background-color: #444444;
