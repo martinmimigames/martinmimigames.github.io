@@ -2,6 +2,11 @@ header.company_name {
     background-color: #eeeeee;
 }
 
+img {
+    width: auto;
+    height: auto;
+}
+
 img.logo {
     display: none;
 }
