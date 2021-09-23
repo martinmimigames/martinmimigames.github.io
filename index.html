@@ -10,10 +10,17 @@
     <script>
        if (isMobile()) {
         addCss("/res/css_mobile/default.css");
+        document.getElementById("logo").width = 100%;
+       } else {
+        document.getElementById("logo").height = 50%;
        }
        if(darkModeCheck) {
         document.getElementById("logo").src = "/res/logo/MGGames/dark mode low density alpha.png";
+       } else {
+        document.getElementById("logo").src = "/res/logo/MGGames/light mode low density alpha.png";
        }
+       document.getElementById("panel").style.display = "block";
+
       </script>
     <title>main menu</title>
   </head>
@@ -22,7 +29,7 @@
 
     <header class="company_name name">MGGames</header>
 
-    <img id="logo" src="/res/logo/MGGames/light mode low density alpha.png" class="pixel"/>
+    <img id="logo" src="" class="pixel" />
 
     <p class="centered">
       This is the main menu of martinmimigames.
