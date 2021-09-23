@@ -8,8 +8,7 @@ img {
 }
 
 img.logo {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: none;
 }
 
