@@ -8,6 +8,7 @@ img {
 }
 
 img.logo {
+    vertical-align: middle;
     display: none;
 }
 
