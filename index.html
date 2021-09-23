@@ -10,17 +10,7 @@
     <script>
        if (isMobile()) {
         addCss("/res/css_mobile/default.css");
-        document.getElementById("logo").width = "100%";
-       } else {
-        document.getElementById("logo").height = "50%";
        }
-       if(darkModeCheck) {
-        document.getElementById("logo").src = "/res/logo/MGGames/dark mode low density alpha.png";
-       } else {
-        document.getElementById("logo").src = "/res/logo/MGGames/light mode low density alpha.png";
-       }
-       document.getElementById("logo").style.display = "block";
-
       </script>
     <title>main menu</title>
   </head>
@@ -43,6 +33,20 @@
     <p class="centered"><a href="programs/products.html">our products</a></p>
     <p class="centered"><a href="members/index.html">our members</a></p>
     <p class="centered"><a href="contacts/index.html">our contacts</a></p>
+
+    <script>
+       if (isMobile()) {
+        document.getElementById("logo").width = "100%";
+       } else {
+        document.getElementById("logo").height = "50%";
+       }
+       if(darkModeCheck) {
+        document.getElementById("logo").src = "/res/logo/MGGames/dark mode low density alpha.png";
+       } else {
+        document.getElementById("logo").src = "/res/logo/MGGames/light mode low density alpha.png";
+       }
+       document.getElementById("logo").style.display = "block";
+      </script>
 
   </body>
 
