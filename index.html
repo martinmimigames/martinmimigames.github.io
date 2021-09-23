@@ -3,12 +3,16 @@
   
   <head>
     <script src="/res/javascript/default.js"></script>
+    <script src="/res/javascript/main_menu.js"></script>
     <link rel="shortcut icon" href="/res/icon/website/default.ico">
     <link rel="stylesheet" href="/res/css/default.css">
     <link rel="stylesheet" href="/res/css/main_menu.css">
     <script>
-      if (isMobile()) {
+       if (isMobile()) {
         addCss("/res/css_mobile/default.css");
+       }
+       if(darkModeCheck) {
+        document.getElementById("logo").src = "/res/logo/MGGames/dark mode low density alpha.png";
        }
       </script>
     <title>main menu</title>
@@ -17,6 +21,8 @@
   <body>
 
     <header class="company_name name">MGGames</header>
+
+    <img id="logo" src="/res/logo/MGGames/light mode low density alpha.png" class="pixel"/>
 
     <p class="centered">
       This is the main menu of martinmimigames.
