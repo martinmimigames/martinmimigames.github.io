@@ -19,6 +19,12 @@
     letter-spacing: 0.02em;
 }
 
+footer {
+    margin: 0px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
 body {
     text-align: left;
     margin: 0px;
