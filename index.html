@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
-  
+
   <head>
+    <meta charset="UTF-8">
     <script src="/res/javascript/default.js"></script>
     <script src="/res/javascript/main_menu.js"></script>
     <link rel="shortcut icon" href="/res/icon/website/default.ico">
     <link rel="stylesheet" href="/res/css/default.css">
     <link rel="stylesheet" href="/res/css/main_menu.css">
     <script>
-       if (isMobile()) {
+      if (isMobile()) {
         addCss("/res/css_mobile/default.css");
-       }
-      </script>
+      }
+    </script>
     <title>main menu</title>
   </head>
-  
+
   <body>
 
     <header class="company_name name">MGGames</header>
 
-    <img id="logo" src="" class="pixel logo" />
+    <img id="logo" class="pixel logo" />
 
     <p class="centered">
       This is the main menu of martinmimigames.
@@ -35,23 +36,23 @@
     <p class="centered"><a href="contacts/index.html">our contacts</a></p>
 
     <script>
-       if(darkModeCheck()) {
+      if(darkModeCheck()) {
         document.getElementById("logo").src = "/res/logo/MGGames/dark mode low density alpha.png";
-       } else {
+      } else {
         document.getElementById("logo").src = "/res/logo/MGGames/light mode low density alpha.png";
-       }
-       if (isMobile()) {
+      }
+      if (isMobile()) {
         document.getElementById("logo").style.width = "100%";
-       } else {
+      } else {
         document.getElementById("logo").style.height = (screen.height / 2) + "px";
-       }
-       document.getElementById("logo").style.display = "block";
-      </script>
+      }
+      document.getElementById("logo").style.display = "block";
+    </script>
 
   </body>
 
   <footer>
-    <p class="centered">Copyright © 2021 martinmimigames</p>
+    <p class="centered">Copyright &#169; 2021 martinmimigames</p>
   </footer>
 
 </html>
