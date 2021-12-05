@@ -70,9 +70,3 @@ a.img {
 img.centered {
     vertical-align: middle;
 }
-
-img.avatar {
-    vertical-align: middle;
-    width: 5%;
-    border-radius: 50%;
-}
