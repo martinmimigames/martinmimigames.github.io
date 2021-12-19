@@ -15,7 +15,7 @@ img.logo {
 img.pixel {
     image-rendering: crisp-edges;
     image-rendering: pixelated;
-    -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast;
     -ms-interpolation-mode: nearest-neighbor;
 }
 
