@@ -1,7 +1,3 @@
-header.company_name {
-    background-color: #eeeeee;
-}
-
 img {
     width: auto;
     height: auto;
@@ -17,10 +13,4 @@ img.pixel {
     image-rendering: pixelated;
     image-rendering: -webkit-optimize-contrast;
     -ms-interpolation-mode: nearest-neighbor;
-}
-
-@media (prefers-color-scheme: dark) {
-    header.company_name {
-        background-color: #444444;
-    }
 }
