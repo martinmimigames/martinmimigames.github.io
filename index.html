@@ -1,60 +1,62 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="UTF-8">
-    <script src="/res/javascript/default.js"></script>
-    <script src="/res/javascript/main_menu.js"></script>
-    <link rel="shortcut icon" href="/res/icon/website/default.ico">
-    <link rel="stylesheet" href="/res/css/default.css">
-    <link rel="stylesheet" href="/res/css/main_menu.css">
-    <script>
-      if (isMobile()) {
-        addCss("/res/css_mobile/default.css");
-      }
-    </script>
-    <title>main menu</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <script src="/res/javascript/default.js"></script>
+  <script src="/res/javascript/main_menu.js"></script>
+  <link rel="shortcut icon" href="/res/icon/website/default.ico">
+  <link rel="stylesheet" href="/res/css/default.css">
+  <link rel="stylesheet" href="/res/css/main_menu.css">
+  <link rel="stylesheet" href="res/css/default.css" type="text/css"/>
 
-  <body>
+  <script>
+    if (isMobile()) {
+      addCss("/res/css_mobile/default.css");
+    }
+  </script>
+  <title>main menu</title>
+</head>
 
-    <header class="company_name name">MGGames</header>
+<body>
 
-    <a href="https://github.com/martinmimigames">
-      <img id="logo" class="pixel logo" />
-    </a>
+  <header class="name">MGGames</header>
 
-    <p class="centered">
-      This is the main menu of martinmimigames.
-    </p>
+  <a href="https://github.com/martinmimigames">
+    <img id="logo" class="pixel logo" />
+  </a>
 
-    <p class="centered">
-      Check out the below links!
-    </p>
+  <p class="centered">
+    This is the main menu of martinmimigames.
+  </p>
 
-    <p class="centered"><a href="history/index.html">the not so grand history</a></p>
-    <p class="centered"><a href="programs/products.html">our products</a></p>
-    <p class="centered"><a href="members/index.html">our members</a></p>
-    <p class="centered"><a href="contacts/index.html">our contacts</a></p>
+  <p class="centered">
+    Check out the below links!
+  </p>
 
-    <script>
-      if(darkModeCheck()) {
-        document.getElementById("logo").src = "/res/logo/MGGames/dark mode low density alpha.png";
-      } else {
-        document.getElementById("logo").src = "/res/logo/MGGames/light mode low density alpha.png";
-      }
-      if (isMobile()) {
-        document.getElementById("logo").style.width = "100%";
-      } else {
-        document.getElementById("logo").style.height = (screen.height / 2) + "px";
-      }
-      document.getElementById("logo").style.display = "block";
-    </script>
+  <p class="centered"><a href="history/index.html">the not so grand history</a></p>
+  <p class="centered"><a href="programs/products.html">our products</a></p>
+  <p class="centered"><a href="members/index.html">our members</a></p>
+  <p class="centered"><a href="contacts/index.html">any problems?</a></p>
 
-  </body>
+  <script>
+    if (darkModeCheck()) {
+      document.getElementById("logo").src = "/res/logo/MGGames/dark mode low density alpha.png";
+    } else {
+      document.getElementById("logo").src = "/res/logo/MGGames/light mode low density alpha.png";
+    }
+    if (isMobile()) {
+      document.getElementById("logo").style.width = "100%";
+    } else {
+      document.getElementById("logo").style.height = (screen.height / 2) + "px";
+    }
+    document.getElementById("logo").style.display = "block";
+  </script>
 
-  <footer>
-    <p class="centered">Copyright &#169; 2021 martinmimigames</p>
-  </footer>
+</body>
+
+<footer>
+  <p class="centered">Copyright &#169; 2021 martinmimigames</p>
+</footer>
 
 </html>
