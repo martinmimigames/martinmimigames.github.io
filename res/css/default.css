@@ -85,3 +85,10 @@ img.avatar {
     vertical-align: middle;
     border-radius: 50%;
 }
+
+img.pixel {
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
