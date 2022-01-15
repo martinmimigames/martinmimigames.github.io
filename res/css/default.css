@@ -1,94 +1,95 @@
 :root {
-    --background-color: rgb(200,200,200);
-    --text-color: #333333;
-    --link-color: rgb(0, 125, 151);
-    --visited-link-color: rgb(125, 49, 134);
-  }
+  --background-color: rgb(200,200,200);
+  --text-color: #333333;
+  --link-color: rgb(0, 125, 151);
+  --visited-link-color: rgb(125, 49, 134);
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: #121212;
     --text-color: rgb(177, 177, 177);
-    --link-color: rgb(0, 67, 98);;
+    --link-color: rgb(0, 67, 98);
+    ;
     --visited-link-color: rgb(76, 0, 85);
   }
 }
 
 * {
-    font-family: Helvetica, Verdana, Arial, sans-serif;
-    letter-spacing: 0.02em;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  letter-spacing: 0.02em;
 }
 
 footer {
-    margin: 0px;
-    background-color: var(--background-color);
-    color: var(--text-color);
+  margin: 0px;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 body {
-    text-align: left;
-    margin: 0px;
-    background-color: var(--background-color);
-    color: var(--text-color);
+  text-align: left;
+  margin: 0px;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 header.name {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    text-align: center;
-    font-size: 3em;
-    background-color: rgb(150,150,150);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 3em;
+  background-color: rgb(150,150,150);
 }
 @media (prefers-color-scheme: dark) {
-    header.name {
-        background-color: #444444;
-    }
+  header.name {
+    background-color: #444444;
+  }
 }
 
 p {
-    margin-left: 1em;
-    margin-right: 1em;
-    font-size: 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 1.5em;
 }
 
 p.centered {
-    text-align: center;
+  text-align: center;
 }
 
 a {
-    /*border for fancy underline*/
-    border-style: hidden hidden solid hidden;
-    border-color: var(--link-color);
+  /*border for fancy underline*/
+  border-style: hidden hidden solid hidden;
+  border-color: var(--link-color);
 
-    /*remove original underline*/
-    text-decoration: none;
-    color: var(--text-color)
+  /*remove original underline*/
+  text-decoration: none;
+  color: var(--text-color)
 }
 
 a:visited {
-    border-color: var(--visited-link-color);
+  border-color: var(--visited-link-color);
 }
 
 a.img {
-    border-style: hidden;
+  border-style: hidden;
 }
 
 img.basic {
-    width: 30%;
+  width: 30%;
 }
 
 img.centered {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 img.avatar {
-    vertical-align: middle;
-    border-radius: 50%;
+  vertical-align: middle;
+  border-radius: 50%;
 }
 
 img.pixel {
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
-    image-rendering: -webkit-optimize-contrast;
-    -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
 }

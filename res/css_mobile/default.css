@@ -1,16 +1,16 @@
 header.name {
-    font-size: 6em;
+  font-size: 6em;
 }
 
 p {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 a {
-    /*border for fancy underline*/
-    border-width: thick;
+  /*border for fancy underline*/
+  border-width: thick;
 }
 
 img {
-    width: 90%;
+  width: 90%;
 }
