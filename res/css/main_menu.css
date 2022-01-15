@@ -7,10 +7,3 @@ img.logo {
     margin: auto;
     display: none;
 }
-
-img.pixel {
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
-    image-rendering: -webkit-optimize-contrast;
-    -ms-interpolation-mode: nearest-neighbor;
-}
