@@ -19,6 +19,7 @@
 
     <script>
       document.getElementById("warning").hidden = "true";
+      PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
       let app = new PIXI.Application({
         width: document.body.clientWidth,
         height: document.body.clientHeight,
