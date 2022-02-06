@@ -7,7 +7,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-color: #121212;
+    --background-color: #0d1717;
     --text-color: rgb(177, 177, 177);
     --link-color: rgb(0, 67, 98);
     ;
@@ -42,7 +42,7 @@ header.name {
 }
 @media (prefers-color-scheme: dark) {
   header.name {
-    background-color: #444444;
+    background-color: #162222;
   }
 }
 
