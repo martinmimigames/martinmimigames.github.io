@@ -17,7 +17,6 @@
   </head>
 
   <body>
-
     <header class="name">MGGames</header>
 
     <a href="https://github.com/martinmimigames">
@@ -41,11 +40,19 @@
     <p class="centered"><a href="contacts/index.html">any problems?</a></p>
 
     <script>
-      if (darkModeCheck()) {
-        document.getElementById("logo").src = "/res/logo/MGGames/dark mode low density alpha.png";
-      } else {
-        document.getElementById("logo").src = "/res/logo/MGGames/light mode low density alpha.png";
+      function changeTheme(){
+        if (darkModeCheck()) {
+          document.getElementById("logo").src = "/res/logo/MGGames/dark mode low density alpha.png";
+        } else {
+          document.getElementById("logo").src = "/res/logo/MGGames/light mode low density alpha.png";
+        }
       }
+      if(window.matchMedia){
+        window
+          .matchMedia('(prefers-color-scheme: dark)')
+          .addEventListener('change', changeTheme);
+      }
+      changeTheme();
       if (isMobile()) {
         document.getElementById("logo").style.width = "100%";
       } else {
@@ -53,7 +60,6 @@
       }
       document.getElementById("logo").style.display = "block";
     </script>
-
   </body>
 
   <footer>
