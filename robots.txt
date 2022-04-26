@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /*.pkg$
+Disallow: /404.html
+Disallow: /res/
+Allow: /
+
+Sitemap: https://martinmimigames.github.io/sitemap.xml
