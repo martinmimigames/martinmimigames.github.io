@@ -1,7 +1,8 @@
 User-agent: *
-Disallow: /*.pkg$
+Disallow: /*.apk$
 Disallow: /404.html
 Disallow: /res/template/base.html
 Allow: /
+Disallow: /robots.txt
 
 Sitemap: https://martinmimigames.github.io/sitemap.xml
