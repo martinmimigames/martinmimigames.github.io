@@ -27,7 +27,7 @@ footer {
 }
 
 body {
-  text-align: left;
+  text-align: center;
   margin: 0px;
   background-color: var(--background-color);
   color: var(--text-color);
@@ -47,18 +47,11 @@ header {
 }
 
 h1.name{
-  text-align: center;
   font-size: 3em;
 }
 
 p {
-  margin-left: 1em;
-  margin-right: 1em;
   font-size: 1.5em;
-}
-
-p.centered {
-  text-align: center;
 }
 
 a {
