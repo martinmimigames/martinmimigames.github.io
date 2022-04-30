@@ -5,6 +5,7 @@
     <link rel="canonical" href="https://martinmimigames.github.io/history/logo.html" />
     <meta name="description" content="A gallery for the very short logo history of martinmimigames.">
     <script src="/res/javascript/default.js"></script>
+     <script src="/res/javascript/darkmode.js"></script>
     <link rel="shortcut icon" href="/res/icon/website/default.ico">
     <link rel="stylesheet" href="/res/css/default.css">
     <script>
@@ -32,13 +33,13 @@
     <p class="centered">
       Below are the logos that existed across our timeline.
     </p>
-    <img src="/res/logo/" alt="original logo">
+    <img id="original_logo" class="centered" src="/res/logo/MGGames/original light" alt="original logo">
 
     <p class="centered">
       The original, our first logo.
     </p>
 
-    <img src="/res/logo" alt="broken vines">
+    <img id="broken_vines" class="centered" src="/res/logo/MGGames/broken vines light" alt="broken vines">
 
     <p class="centered">
       Broken vines, our second logo.
@@ -48,5 +49,31 @@
       <p class="centered"><a href="/index.html">Back to Homepage</a></p>
       <p class="centered">Copyright &#169; 2022 martinmimigames</p>
     </footer>
+    
+    <script>
+      function changeTheme(){
+        if (darkModeCheck()) {
+          document.getElementById("original_logo").src = "/res/logo/MGGames/original dark.png";
+          document.getElementById("broken_vines").src = "/res/logo/MGGames/broken vines dark.png";
+        } else {
+          document.getElementById("original_logo").src = "/res/logo/MGGames/original light.png";
+          document.getElementById("broken_vines").src = "/res/logo/MGGames/broken vines light.png";
+        }
+      }
+      if(window.matchMedia){
+        window
+          .matchMedia('(prefers-color-scheme: dark)')
+          .addEventListener('change', changeTheme);
+      }
+      changeTheme();
+      if (isMobile()) {
+        document.getElementById("original_logo").style.width = "100%";
+        document.getElementById("broken_vines").style.width = "100%";
+      } else {
+        document.getElementById("original_logo").style.height = (screen.height / 2) + "px";
+        document.getElementById("broken_vines").style.height = (screen.height / 2) + "px";
+      }
+      document.getElementById("logo").style.display = "block";
+    </script>
   </body>
 </html>

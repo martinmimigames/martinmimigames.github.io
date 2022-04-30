@@ -6,7 +6,7 @@
     <meta name="google-site-verification" content="7dCOgNhGu5wBj3HuX0AhXj8xxS5xPvv5pJoX6NyyUyA" />
     <meta name="description" content="The official homepage of martinmimigames!">
     <script src="/res/javascript/default.js"></script>
-    <script src="/res/javascript/main_menu.js"></script>
+    <script src="/res/javascript/darkmode.js"></script>
     <link rel="shortcut icon" href="/res/icon/website/default.ico">
     <link rel="stylesheet" href="/res/css/default.css">
     <link rel="stylesheet" href="/res/css/main_menu.css">
@@ -25,7 +25,7 @@
     </header>
 
     <a href="https://github.com/martinmimigames">
-      <img id="logo" src="/res/logo/MGGames/light mode low density alpha.png" class="pixel logo" alt="github page"/>
+      <img id="logo" src="/res/logo/MGGames/broken vines light.png" class="pixel logo" alt="github page"/>
     </a>
 
     <p class="centered">
@@ -43,22 +43,22 @@
     <p class="centered"><a href="programs/products.html">our products</a></p>
     <p class="centered"><a href="members/index.html">our members</a></p>
     <p class="centered"><a href="contacts/index.html">any problems?</a></p>
-    
-<footer>
-    <p class="centered">Copyright &#169; 2022 martinmimigames</p>
-</footer>
+
+    <footer>
+      <p class="centered">Copyright &#169; 2022 martinmimigames</p>
+    </footer>
     <script>
-      function changeTheme(){
+      function changeTheme() {
         if (darkModeCheck()) {
-          document.getElementById("logo").src = "/res/logo/MGGames/dark mode low density alpha.png";
+          document.getElementById("logo").src = "/res/logo/MGGames/broken vines dark.png";
         } else {
-          document.getElementById("logo").src = "/res/logo/MGGames/light mode low density alpha.png";
+          document.getElementById("logo").src = "/res/logo/MGGames/broken vines light.png";
         }
       }
-      if(window.matchMedia){
+      if (window.matchMedia) {
         window
-          .matchMedia('(prefers-color-scheme: dark)')
-          .addEventListener('change', changeTheme);
+                .matchMedia('(prefers-color-scheme: dark)')
+                .addEventListener('change', changeTheme);
       }
       changeTheme();
       if (isMobile()) {
