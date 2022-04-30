@@ -1,5 +1,5 @@
 :root {
-  --background-color: rgb(200,200,200);
+  --background-color: rgb(240,240,240);
   --text-color: #333333;
   --link-color: rgb(0, 125, 151);
   --visited-link-color: rgb(125, 49, 134);
@@ -37,7 +37,7 @@ header {
   padding-top: 1em;
   padding-bottom: 1em;
   text-align: center;
-  background-color: rgb(150,150,150);
+  background-color: rgb(210,210,210);
 }
 
 @media (prefers-color-scheme: dark) {
