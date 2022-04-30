@@ -8,9 +8,11 @@
      <script src="/res/javascript/darkmode.js"></script>
     <link rel="shortcut icon" href="/res/icon/website/default.ico">
     <link rel="stylesheet" href="/res/css/default.css">
+    <link rel="stylesheet" href="/res/css/img.css">
     <script>
       if (isMobile()) {
         addCss("/res/css_mobile/default.css");
+        addCss("/res/css_mobile/img.css");
       }
     </script>
     <title>logo history : The official history of martinmimigames</title>
@@ -66,14 +68,6 @@
           .addEventListener('change', changeTheme);
       }
       changeTheme();
-      if (isMobile()) {
-        document.getElementById("original_logo").style.width = "100%";
-        document.getElementById("broken_vines").style.width = "100%";
-      } else {
-        document.getElementById("original_logo").style.height = (screen.height / 2) + "px";
-        document.getElementById("broken_vines").style.height = (screen.height / 2) + "px";
-      }
-      document.getElementById("logo").style.display = "block";
     </script>
   </body>
 </html>

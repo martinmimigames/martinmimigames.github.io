@@ -9,11 +9,13 @@
     <script src="/res/javascript/darkmode.js"></script>
     <link rel="shortcut icon" href="/res/icon/website/default.ico">
     <link rel="stylesheet" href="/res/css/default.css">
+    <link rel="stylesheet" href="/res/css/img.css">
     <link rel="stylesheet" href="/res/css/main_menu.css">
-    <link rel="stylesheet" href="res/css/default.css" type="text/css"/>
+
     <script>
       if (isMobile()) {
         addCss("/res/css_mobile/default.css");
+        addCss("/res/css_mobile/img.css");
       }
     </script>
     <title>main menu : The official homepage of martinmimigames</title>
@@ -24,8 +26,8 @@
       <h1 class="name">MGGames</h1>
     </header>
 
-    <a href="https://github.com/martinmimigames">
-      <img id="logo" src="/res/logo/MGGames/broken vines light.png" class="pixel logo" alt="github page"/>
+    <a class="img" href="https://github.com/martinmimigames">
+      <img id="logo" src="/res/logo/MGGames/broken vines light.png" alt="github page"/>
     </a>
 
     <p>
@@ -61,12 +63,6 @@
                 .addEventListener('change', changeTheme);
       }
       changeTheme();
-      if (isMobile()) {
-        document.getElementById("logo").style.width = "100%";
-      } else {
-        document.getElementById("logo").style.height = (screen.height / 2) + "px";
-      }
-      document.getElementById("logo").style.display = "block";
     </script>
   </body>
 </html>
