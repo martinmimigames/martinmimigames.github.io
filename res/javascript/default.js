@@ -1,8 +1,7 @@
-var _isMobile = /Mobi/i.test(window.navigator.userAgent);
-
 function isMobile() {
-  return _isMobile;
+  return /Mobi/i.test(window.navigator.userAgent);;
 }
+
 function addCss(res) {
   var link = document.createElement('link');
   link.rel = 'stylesheet';

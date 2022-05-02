@@ -10,7 +10,6 @@
     <link rel="shortcut icon" href="/res/icon/website/default.ico">
     <link rel="stylesheet" href="/res/css/default.css">
     <link rel="stylesheet" href="/res/css/img.css">
-
     <script>
       if (isMobile()) {
         addCss("/res/css_mobile/default.css");
@@ -56,12 +55,8 @@
           document.getElementById("logo").src = "/res/logo/MGGames/broken vines light.png";
         }
       }
-      if (window.matchMedia) {
-        window
-                .matchMedia('(prefers-color-scheme: dark)')
-                .addEventListener('change', changeTheme);
-      }
       changeTheme();
+      setDarkModeCallback(changeTheme);
     </script>
   </body>
 </html>
