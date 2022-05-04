@@ -15,13 +15,14 @@
   </head>
 
   <body>
-    <p id="warning">
+    <noscript>
+    <p>
       This page requires javascript to run.
       Please enable javascript if your browser supports it.
     </p>
-
+    </noscript>
+    
     <script>
-      document.getElementById("warning").hidden = "true";
       PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
       let app = new PIXI.Application({
         width: document.body.clientWidth,
