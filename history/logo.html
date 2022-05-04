@@ -2,19 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href="https://martinmimigames.github.io/history/logo.html" />
     <meta name="description" content="A gallery for the very short logo history of martinmimigames.">
-    <script src="/res/javascript/default.js"></script>
-    <script src="/res/javascript/darkmode.js"></script>
     <link rel="shortcut icon" href="/res/icon/website/default.ico">
     <link rel="stylesheet" href="/res/css/default.css">
     <link rel="stylesheet" href="/res/css/img.css">
-    <script>
-      if (isMobile()) {
-        addCss("/res/css_mobile/default.css");
-        addCss("/res/css_mobile/img.css");
-      }
-    </script>
     <title>logo history : The official history of martinmimigames</title>
   </head>
 
@@ -35,13 +28,19 @@
     <p>
       Below are the logos that existed across our timeline.
     </p>
-    <img id="original_logo" src="/res/logo/MGGames/original light" alt="original logo">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="/res/logo/mggames/original-dark.png">
+    <img id="original_logo" src="/res/logo/mggames/original-light.png" alt="original logo">
+  </picture>
 
     <p>
       The original, our first logo.
     </p>
 
-    <img id="broken_vines" src="/res/logo/MGGames/broken vines light" alt="broken vines">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="/res/logo/mggames/broken-vines-dark.png">
+    <img id="broken_vines" src="/res/logo/mggames/broken-vines-light.png" alt="broken vines">
+  </picture>
 
     <p>
       Broken vines, our second logo.
@@ -51,19 +50,5 @@
       <p><a href="/index.html">Back to Homepage</a></p>
       <p>Copyright &#169; 2022 martinmimigames</p>
     </footer>
-
-    <script>
-      function changeTheme() {
-        if (darkModeCheck()) {
-          document.getElementById("original_logo").src = "/res/logo/MGGames/original dark.png";
-          document.getElementById("broken_vines").src = "/res/logo/MGGames/broken vines dark.png";
-        } else {
-          document.getElementById("original_logo").src = "/res/logo/MGGames/original light.png";
-          document.getElementById("broken_vines").src = "/res/logo/MGGames/broken vines light.png";
-        }
-      }
-      changeTheme();
-      setDarkModeCallback(changeTheme);
-    </script>
   </body>
 </html>

@@ -2,20 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href="https://martinmimigames.github.io/index.html" />
     <meta name="google-site-verification" content="7dCOgNhGu5wBj3HuX0AhXj8xxS5xPvv5pJoX6NyyUyA" />
     <meta name="description" content="The official homepage of martinmimigames!">
-    <script src="/res/javascript/default.js"></script>
-    <script src="/res/javascript/darkmode.js"></script>
     <link rel="shortcut icon" href="/res/icon/website/default.ico">
     <link rel="stylesheet" href="/res/css/default.css">
     <link rel="stylesheet" href="/res/css/img.css">
-    <script>
-      if (isMobile()) {
-        addCss("/res/css_mobile/default.css");
-        addCss("/res/css_mobile/img.css");
-      }
-    </script>
     <title>main menu : The official homepage of martinmimigames</title>
   </head>
 
@@ -25,7 +18,10 @@
     </header>
 
     <a class="img" href="https://github.com/martinmimigames">
-      <img id="logo" src="/res/logo/MGGames/broken vines light.png" alt="github page"/>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="/res/logo/mggames/broken-vines-dark.png">
+        <img id="logo" src="/res/logo/mggames/broken-vines-light.png" alt="github page"/>
+      </picture>
     </a>
 
     <p>
@@ -47,16 +43,5 @@
     <footer>
       <p>Copyright &#169; 2022 martinmimigames</p>
     </footer>
-    <script>
-      function changeTheme() {
-        if (darkModeCheck()) {
-          document.getElementById("logo").src = "/res/logo/MGGames/broken vines dark.png";
-        } else {
-          document.getElementById("logo").src = "/res/logo/MGGames/broken vines light.png";
-        }
-      }
-      changeTheme();
-      setDarkModeCallback(changeTheme);
-    </script>
   </body>
 </html>
