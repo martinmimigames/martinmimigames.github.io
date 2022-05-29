@@ -1,6 +1,6 @@
 :root {
-  --background-color: rgb(240,240,240);
-  --header-background-color: rgb(210,210,210);
+  --background-color: #F0F0F0;
+  --header-background-color: #D2D2D2;
   --text-color: #333333;
   --link-color: rgb(0, 125, 151);
   --visited-link-color: rgb(125, 49, 134);
@@ -10,7 +10,7 @@
   :root {
     --background-color: #0d1717;
     --header-background-color: #162222;
-    --text-color: rgb(177, 177, 177);
+    --text-color: #b1b1b1;
     --link-color: rgb(0, 67, 98);
     --visited-link-color: rgb(76, 0, 85);
   }
