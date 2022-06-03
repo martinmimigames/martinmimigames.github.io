@@ -1,10 +1,7 @@
 {
   "repo_list": [
-    {
-      "name": "server alpha",
-      "url": "https://martinmimigames.github.io/repo/repo.json",
-      "type": "repo"
-    }
+    "https://martinmimigames.github.io/repo/repo.json"
   ],
+  "type":  "repo list",
   "version": "1"
 }
