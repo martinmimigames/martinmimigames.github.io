@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://martinmimigames.github.io/index.html</loc>
-    <lastmod>2022-05-04</lastmod>
+    <lastmod>2022-07-02</lastmod>
   </url>
   <url>
     <loc>https://martinmimigames.github.io/contacts/index.html</loc>
@@ -21,20 +21,24 @@
     <lastmod>2022-05-04</lastmod>
   </url>
   <url>
-    <loc>https://martinmimigames.github.io/programs/products.html</loc>
-    <lastmod>2022-06-15</lastmod>
+    <loc>https://martinmimigames.github.io/projects/index.html</loc>
+    <lastmod>2022-07-02</lastmod>
   </url>
   <url>
-    <loc>https://martinmimigames.github.io/programs/full.html</loc>
-    <lastmod>2022-05-27</lastmod>
+    <loc>https://martinmimigames.github.io/projects/full.html</loc>
+    <lastmod>2022-07-02</lastmod>
   </url>
   <url>
-    <loc>https://martinmimigames.github.io/programs/android/list.html</loc>
-    <lastmod>2022-06-27</lastmod>
+    <loc>https://martinmimigames.github.io/projects/android.html</loc>
+    <lastmod>2022-07-02</lastmod>
   </url>
   <url>
-    <loc>https://martinmimigames.github.io/programs/online/list.html</loc>
-    <lastmod>2022-06-15</lastmod>
+    <loc>https://martinmimigames.github.io/projects/code.html</loc>
+    <lastmod>2022-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://martinmimigames.github.io/projects/online.html</loc>
+    <lastmod>2022-07-02</lastmod>
   </url>
   <url>
     <loc>https://martinmimigames.github.io/projects/android-car-4/index.html</loc>
@@ -83,5 +87,9 @@
   <url>
     <loc>https://martinmimigames.github.io/projects/time-wasting-button/index.html</loc>
     <lastmod>2022-05-13</lastmod>
+  </url>
+  <url>
+    <loc>https://martinmimigames.github.io/projects/utils/index.html</loc>
+    <lastmod>2022-07-02</lastmod>
   </url>
 </urlset>
