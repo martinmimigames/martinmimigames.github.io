@@ -15,12 +15,12 @@ You can find most information about martinmimigames here.
 
 ## Issues ##
 
-If have any bugs, features, or improvements,
+If you have any bugs, features, or improvements,
 please put them into issues
 [here](https://github.com/martinmimigames/martinmimigames.github.io/issues/new).
-The issues created should be refered to the main branch, unless specified.
+The issues created should be referred to the main branch, unless specified.
 Only create a new issue when there is no other of similar topic.
-Please put appropiate tags to issues if possible.
+Please put appropriate tags to issues if possible.
 We would be happy to listen to your issues. :)
 
 - - - -
