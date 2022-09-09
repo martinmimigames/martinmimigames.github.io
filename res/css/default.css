@@ -2,8 +2,6 @@
   --background-color: #F0F0F0;
   --header-background-color: #D2D2D2;
   --text-color: #333333;
-  --link-color: rgb(0, 125, 151);
-  --visited-link-color: rgb(125, 49, 134);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -11,8 +9,6 @@
     --background-color: #0d1717;
     --header-background-color: #162222;
     --text-color: #b1b1b1;
-    --link-color: rgb(0, 67, 98);
-    --visited-link-color: rgb(76, 0, 85);
   }
 }
 
@@ -43,7 +39,7 @@ header {
 a {
   /*border for fancy underline*/
   border-style: hidden hidden solid hidden;
-  border-color: var(--link-color);
+  border-color: rgb(0, 125, 151);
 
   /*remove original underline*/
   text-decoration: none;
@@ -51,7 +47,7 @@ a {
 }
 
 a:visited {
-  border-color: var(--visited-link-color);
+  border-color: rgb(125, 49, 134);
 }
 
 h1{
