@@ -16,12 +16,14 @@
   font-family: Verdana, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: 0.02em;
+  font-size: 1.05em;
 }
 
 footer {
   margin: 0px;
   background-color: var(--background-color);
   color: var(--text-color);
+  padding: 1em;
 }
 
 body {
@@ -40,7 +42,8 @@ header {
 }
 
 div.body {
-  padding: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 a {
@@ -58,12 +61,11 @@ a:visited {
   border-color: rgb(125, 49, 134);
 }
 
-p {
-  font-size: 1.5em;
+b {
+  font-weight: 400;
 }
 
 pre {
-  font-size: 1.5em;
   white-space: pre-wrap; /* css-3 */
   white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
   white-space: -pre-wrap; /* Opera 4-6 */
