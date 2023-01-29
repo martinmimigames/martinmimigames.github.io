@@ -1,6 +1,6 @@
 :root {
-  --background-color: #F0F0F0;
-  --header-background-color: #D2D2D2;
+  --background-color: #f0f0f0;
+  --header-background-color: #d1d1d1;
   --text-color: #333333;
 }
 
@@ -13,7 +13,7 @@
 }
 
 * {
-  font-family: Verdana, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 300;
   letter-spacing: 0.02em;
   font-size: 1.05em;
@@ -47,28 +47,24 @@ div.body {
 }
 
 a {
-  /*border for fancy underline*/
-  border-style: hidden hidden solid hidden;
-  border-color: rgb(0, 125, 151);
-
-  /*remove original underline*/
-  text-decoration: none;
+  text-decoration-color: #007d97;
   font-weight: 600;
   color: var(--text-color);
 }
 
 a:visited {
-  border-color: rgb(125, 49, 134);
+  text-decoration-color: #7d3186;
 }
 
 b {
   font-weight: 400;
+  color: #c659d2;
 }
 
 pre {
-  white-space: pre-wrap; /* css-3 */
-  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-  white-space: -pre-wrap; /* Opera 4-6 */
-  white-space: -o-pre-wrap; /* Opera 7 */
-  word-wrap: break-word; /* Internet Explorer 5.5+ */
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
 }
