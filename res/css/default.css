@@ -17,20 +17,18 @@
   font-weight: lighter;
   letter-spacing: 0.02em;
   font-size: 1.05em;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 footer {
   margin: 0px;
-  background-color: var(--background-color);
-  color: var(--text-color);
   padding: 1em;
 }
 
 body {
   text-align: center;
   margin: 0px;
-  background-color: var(--background-color);
-  color: var(--text-color);
 }
 
 h1 {
@@ -38,7 +36,6 @@ h1 {
   padding: 1em;
   font-size: 2.5em;
   background-color: var(--header-background-color);
-  color: var(--text-color);
 }
 
 div.body {
@@ -46,10 +43,14 @@ div.body {
   padding-right: 1em;
 }
 
+p {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 a {
   text-decoration-color: #007d97;
   font-weight: bold;
-  color: var(--text-color);
 }
 
 a:visited {
