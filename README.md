@@ -1,4 +1,4 @@
-# martinmimigames website #
+# martinmimigames.github.io #
 
 ## Description ##
 
@@ -11,21 +11,16 @@ You can find most information about martinmimigames here.
 
 ## Branches ##
 
-* main : last published website source code
+- main : last published website source code
 
-## Issues ##
+## Issues
 
-If you have any bugs, features, or improvements,
-please put them into issues
-[here](https://github.com/martinmimigames/martinmimigames.github.io/issues/new).
-We welcome any issues! :)
+Issues and pull requests are always welcome!
 
-- - - -
+You can submit issues the following ways:
+- via [Github Issues](https://github.com/martinmimigames/martinmimigames.github.io/issues).
+- via email: martinmimigames@gmail.com
 
 ### Last update of README ###
 
-Date : 23-11-2022 dd-mm-yyyy
-
-### Important ###
-
-!!! Please DO NOT COPY !!!
+Date : 04-02-2023 dd-mm-yyyy
