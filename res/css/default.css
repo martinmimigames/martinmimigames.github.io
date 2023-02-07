@@ -49,11 +49,13 @@ p {
 }
 
 a {
-  text-decoration-color: #007d97;
+  color: var(--text-color);
+  text-decoration-color: #00aaff;
   font-weight: bold;
 }
 
 a:visited {
+  color: var(--text-color);
   text-decoration-color: #7d3186;
 }
 
