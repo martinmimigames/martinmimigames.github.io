@@ -14,7 +14,7 @@
 
 * {
   font-family: "Helevetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-  font-weight: lighter;
+  font-weight: 300;
   letter-spacing: 0.02em;
   font-size: 1.05em;
   color: var(--text-color);
