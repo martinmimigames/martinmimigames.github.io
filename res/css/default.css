@@ -29,6 +29,7 @@ footer {
 body {
   text-align: center;
   margin: 0px;
+  background-color: var(--background-color);
 }
 
 h1 {
