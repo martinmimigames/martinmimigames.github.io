@@ -14,7 +14,7 @@
 
 * {
   font-family: "Helevetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-  font-weight: lighter;
+  font-weight: 300;
   letter-spacing: 0.02em;
   font-size: 1.05em;
   color: var(--text-color);
@@ -29,6 +29,7 @@ footer {
 body {
   text-align: center;
   margin: 0px;
+  background-color: var(--background-color);
 }
 
 h1 {
@@ -49,11 +50,13 @@ p {
 }
 
 a {
-  text-decoration-color: #007d97;
+  color: var(--text-color);
+  text-decoration-color: #00aaff;
   font-weight: bold;
 }
 
 a:visited {
+  color: var(--text-color);
   text-decoration-color: #7d3186;
 }
 
