@@ -1,6 +1,6 @@
-# martinmimigames.github.io #
+# martinmimigames.github.io
 
-## Description ##
+## Description
 
 This is the official website of martinmimigames.
 
@@ -9,7 +9,7 @@ Location of website :
 
 You can find most information about martinmimigames here.
 
-## Branches ##
+## Branches
 
 - main : last published website source code
 
@@ -18,9 +18,10 @@ You can find most information about martinmimigames here.
 Issues and pull requests are always welcome!
 
 You can submit issues the following ways:
+
 - via [Github Issues](https://github.com/martinmimigames/martinmimigames.github.io/issues).
 - via email: martinmimigames@gmail.com
 
-### Last update of README ###
+### Last update of README
 
 Date : 04-02-2023 dd-mm-yyyy
