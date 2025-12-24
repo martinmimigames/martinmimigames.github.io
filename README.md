@@ -19,7 +19,7 @@ Issues and pull requests are always welcome!
 
 You can submit issues the following ways:
 
-- via [Github Issues](https://github.com/martinmimigames/martinmimigames.github.io/issues).
+- via [GitHub Issues](https://github.com/martinmimigames/martinmimigames.github.io/issues).
 - via email: martinmimigames@gmail.com
 
 ### Last update of README
